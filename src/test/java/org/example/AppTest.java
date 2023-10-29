@@ -23,6 +23,12 @@ class AppTest {
         assertEquals(5,myApp.add(94,5));
     }
 
+    @Test
+    void fourth(){
+        App myApp = new App();
+        assertEquals(4,myApp.add(94,5));
+    }
+
 
 
 }
