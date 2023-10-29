@@ -17,6 +17,12 @@ class AppTest {
         assertEquals(99,myApp.add(94,5));
     }
 
+    @Test
+    void fifth(){
+        App myApp = new App();
+        assertEquals(5,myApp.add(94,5));
+    }
+
 
 
 }
